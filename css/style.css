@@ -1,0 +1,329 @@
+* {
+  font-family: 'Dosis', sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+}
+
+img[src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+#home-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/login-bg-blur.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.BGL-R {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+  background-image: url('../img/login-bg.jpg');
+  background-color: rgb(60, 60, 60);
+  background-blend-mode: soft-light;
+  background-size: cover;
+}
+
+.card-login {
+  height: 100%;
+  width: 320px;
+  max-height: 500px;
+}
+
+.card-SectionRegister {
+  max-width: 500px;
+}
+
+.card-login,
+.card-SectionRegister {}
+
+.SectionLogin {
+  padding-top: 15vh;
+}
+
+.SectionRegister {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.h4,
+.navbar-brand,
+.card-header {
+  font-family: 'Comfortaa', cursive;
+}
+
+.navbar {
+  border-bottom: #4285F4 2px solid;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-item {
+  border-radius: 0px;
+}
+
+.nav-item:hover {
+  background-color: #4285F4;
+  transition: all 700ms ease;
+}
+
+.home-inner {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.card {
+  box-shadow: 0px 3px 15px -2px rgba(0, 0, 0, 0.15);
+}
+
+section .teamsection {
+  font-family: font-family: 'Comfortaa', cursive;
+}
+
+.imgDevelopers {
+  width: 100px;
+}
+
+.UsuarioON {
+  display: flex;
+  color: #aaaaaa;
+  font-size: 1em;
+  height: 16px;
+}
+
+.UsuarioONCollapse {
+  display: none;
+  color: #aaaaaa;
+}
+
+.Conectado {
+  color: #58de13;
+}
+
+.fa-stack {
+  font-size: 0.8em;
+}
+
+.fa-stack i {
+  vertical-align: middle;
+}
+
+.tdlargo {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: '';
+}
+
+.registros {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.exportar {
+  font-size: 1em;
+  height: 30px;
+  width: 100px;
+  padding: 0px;
+  float: right;
+}
+
+.exportar input {
+  padding: 0px;
+}
+
+.card-header {
+  vertical-align: middle;
+}
+
+p.NombreUsuario {
+  margin: 0px;
+  font-size: 1.5em;
+}
+
+--Radio y checkbox --
+
+.formulario div {
+  padding: 20px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.formulario .radio label,
+.formulario .checkbox label {
+  display: inline-block;
+  cursor: pointer;
+  color: #4285F4;
+  position: relative;
+  padding: 5px 15px 5px 51px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.formulario .radio .block,
+.formulario .checkbox .block {
+  display: block;
+  margin-left: 47px;
+  position: relative;
+  width: 200px;
+}
+
+.formulario .radio .iconrol {
+  position: absolute;
+  padding-top: 30px;
+}
+
+.formulario .radio .Primerradio {
+  margin-left: 17px;
+}
+
+.formulario .radio label:hover,
+.formulario .checkbox label:hover {
+  background: rgba(26, 52, 96, 0.6);
+}
+
+.formulario .radio label:before,
+.formulario .checkbox label:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 15px;
+  border-radius: 50%;
+  background: none;
+  border: 3px solid #4285F4;
+}
+
+.formulario input[type="radio"] {
+  display: none;
+}
+
+.formulario input[type="radio"]:checked+label:before {
+  display: none;
+}
+
+.formulario input[type="radio"]:checked+label {
+  padding: 5px 15px;
+  background: #4285F4;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.formulario .checkbox label:before {
+  border-radius: 3px;
+}
+
+.formulario .checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.formulario .checkbox input[type="checkbox"]:checked+label:before {
+  display: none;
+}
+
+.formulario .checkbox input[type="checkbox"]:checked+label {
+  background: #4285F4;
+  color: #fff;
+  padding: 5px 15px;
+}
+
+.formulario i {
+  font-size: 1.75rem;
+}
+
+.cardperson h3 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+section div .cardperson {
+  height: 320px;
+  margin: 5px 0px;
+}
+
+.col-lg-3 {
+  padding: 0px 5px;
+  ;
+}
+
+.LabelForm {
+  width: 250px;
+}
+
+@media (max-width: 750px) {
+  .IconBack {
+    display: none;
+  }
+
+  .card-login {
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+    min-height: 100vh;
+  }
+
+  .card-SectionRegister {
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .SectionLogin {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .SectionRegister {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+
+  section div .cardperson {
+    max-height: 320px;
+    margin: 5px 0px;
+  }
+}
+
+@media (max-width: 365px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .formulario .radio .Otrosradio {
+    margin-left: 47px;
+  }
+
+  .formulario .radio .icongender {
+    position: absolute;
+    padding-top: 17px;
+  }
+
+  h5 {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  section .teamsection {
+    padding: 1.5rem !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .UsuarioON {
+    display: none;
+  }
+
+  .UsuarioONCollapse {
+    display: block;
+  }
+}
